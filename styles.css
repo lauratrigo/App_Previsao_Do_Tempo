@@ -1,0 +1,93 @@
+/* segundo passo: estilizar o programa antes do javascript colocar tudo para funcionar */
+
+/* o asterisco quer dizer que você aplica o estilo a tudo */
+* {
+    /* é bom zerar logo de começo pq cada navegador põe um valor aqui */
+    margin: 0; /* zera a informação de margem */
+    padding: 0; /* define o espaço entre o conteúdo de um elemento e as suas bordas */
+    box-sizing: border-box;
+    /*avisar ao html que existe um arquivo de css do programa, isto na linha 7 do html, apenas precisa digitar link:css */
+    /* escolher uma fonte no google fonts por exemplo, foi escolhida a open sans light 300, medium 500 e bold 700 */
+    /* adicionar essa fonte no seu html na linha 8, 9, 10 */
+    font-family: "Open Sans", sans-serif; /* primeira linha do código Open Sans: CSS class for a variable style */
+}
+
+/* body - <body> contém todo o conteúdo de um documento HTML, como títulos, parágrafos, imagens, hiperlinks, tabelas, listas, etc */
+/* adicionar uma imagem no fundo */
+body {
+    height: 100vh; /* o body foi setado para ocupar toda a tela, aqui é a altura máxima */
+    width: 100vw; /* largura máxima */
+    display: flex; /* joga todo mundo que estava no cantinho para o meio */
+    justify-content: center; /* alinha no eixo horizontal */
+    align-items: center; /* alinha o eixo vertical */
+    background-image: url("https://images.unsplash.com/photo-1495757450029-09dbedacbc36?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+/* chama a classe que foi criado no div */
+.bigger-box {
+    background: #000000; /* a caixa será preta */
+    opacity: 0.8; /* por conta da opacidade estar em 0.8, será um pouquinho mais clara, e não 100% preta */
+    border-radius: 25px; /* bordas arredondadas */
+    padding: 20px; /* desgruda um pouco os elementos, os deixa mais distantes */
+    width: 95%; /* em telas menores vai ocupar no máximo 95% */
+    max-width: 450px; /* em telas maiores cresce até somente 450px */
+}
+
+.input-city {
+    border: none;
+    outline: none; /* linha azul que fica em volta da caixa onde se digita o nome da cidade, o google que coloca isso */
+    padding: 10px; /* para a caixa de inserção do nome da cidade ficar um pouco maior */
+    border-radius: 25px; /* arredondou a borda da caixa */
+    font-size: 18px; /* aumenta o tamanho das letras em "Enter the city name" */
+    background-color: #7c7c7c2b; /* alterou a cor de dentro da caixa para este tom de cinza */
+    color: #ffffff; /* define o texto de dentro da caixa como branco */
+    width: calc(100% - 100px); /* este cálculo define que a caixa vai usar 100% do espaço - 100px */
+}
+
+.button-search {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px; /* o botão é bem arredondado */
+    background-color: #7c7c7c2b;
+    cursor: pointer; /* qual você passa o mouse por cima da lupa fica aquela "mãozinha", não só a seta crua */
+    float: right; /* coloca o botão inteiro para a direita */
+
+}
+
+.img-search {
+    width: 20px; /* diminuir o tamanho do ícone da lupa */
+}
+
+.medium-box {
+    margin-top: 30px; /* o texto "Weather in São Paulo não vai ficar colado com a caixa para digitar o nome da cidade */
+}
+
+.city {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300; /* deixa o texto mais fino */
+}
+
+.temp {
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.smaller-box {
+    display: flex; /* colocou a imagem e o texto um do lado do outro */
+    align-items: center; /* centralizou a nuvem e o texto */
+    margin-top: 20px; /* desgrudou as informações do texto da temperatura */
+}
+
+.prevision-text {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.humidity {
+    color: #ffffff;
+    margin-top: 20px;
+}

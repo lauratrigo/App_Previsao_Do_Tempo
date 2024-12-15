@@ -1,0 +1,59 @@
+<!-- Link do vídeo: https://www.youtube.com/watch?v=qxzqEuAOYZ4&t=646s -->
+
+
+<!DOCTYPE html>
+<!-- idioma do site -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+        <script src = "scripts.js"> </script>
+    <title>Weather App</title>
+</head>
+
+<body>
+    <!-- primeiro passo: criar uma div para colocar a caixa de diálogo com os itens -->
+    <!-- div (division) - é um elemento do HTML que serve para agrupar blocos de elementos e aplicar estilos CSS a eles -->
+    <div class="bigger-box">
+        <!-- foi criada essa caixa na classe para começar a estilizar os elementos centrais do site -->
+        <input class="input-city" placeholder="Enter the city name ">
+
+        <!-- o botão terá uma imagem que será posta posteriormente -->
+        <!-- <button>Buscar</button> -->
+
+        <!-- pode estilizar tudo isso direto porque existe apenas um botão -->
+        <button class="button-search" onclick="clickButton()"> <!-- onclick usado para chamar a função lá do javascript -->
+            <img class="img-search" alt="search" src="https://www.svgrepo.com/show/488200/find.svg">
+        </button>
+
+        <div class = "medium-box">
+            <h2 class = "city">Weather in São Paulo</h2>
+            <!-- cria um parágrafo -->
+            <p class = "temp" >21ºC</p>
+
+
+            <!-- imagem da nuvem, vai ter troca dinâmica no servidor -->
+            <!-- para a realização dos testes iniciais, foi colocada o link direto de uma nuvemzinha (src) -->
+            <!-- foi aplicado também um texto alternativo caso a imagem não carregue (alt) -->
+
+            <div class="smaller-box"> <!-- criação dessa caixa auxilia na hora de estilizar -->
+                <img class = "img-prevision" alt="icon-weather-info" src="https://openweathermap.org/img/wn/04n.png">
+                <p class = "prevision-text">Cloudy</p>
+            </div>
+
+            <p class = "humidity">Humidity: 76%</p>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- html - é a linguagem de marcação com a qual você envolve o conteúdo, para instruir os navegadores sobre cabeçalhos, listas, tabelas, etc -->
+<!-- css - é a linguagem de estilos que você usa para estilizar a página, para instruir os navegadores a alterar a cor, a fonte, o layout e muito mais -->
