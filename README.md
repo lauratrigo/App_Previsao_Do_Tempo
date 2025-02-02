@@ -26,3 +26,7 @@ O objetivo deste projeto foi criar uma aplicação simples e funcional para:
 - **Busca pela cidade**: O usuário pode digitar o nome de uma cidade para obter a previsão do tempo.
 - **Exibe dados do clima**: Temperatura, umidade, e uma descrição do clima (ex: ensolarado, chuvoso, nublado).
 - **Design responsivo**: A interface se adapta a diferentes tamanhos de tela (desktop e mobile).
+
+
+
+_créditos: https://www.youtube.com/watch?v=qxzqEuAOYZ4&t=1s_
