@@ -28,5 +28,6 @@ O objetivo deste projeto foi criar uma aplicação simples e funcional para:
 - **Design responsivo**: A interface se adapta a diferentes tamanhos de tela (desktop e mobile).
 
 
+## 🎥 Créditos
 
-_créditos: https://www.youtube.com/watch?v=qxzqEuAOYZ4&t=1s_
+Este projeto foi desenvolvido por Laura Trigo com base no vídeo [Criando um App de Previsão do tempo com HTML, CSS e JavaScript](https://www.youtube.com/watch?v=qxzqEuAOYZ4&t=1s).
