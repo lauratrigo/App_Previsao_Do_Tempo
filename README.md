@@ -1,11 +1,11 @@
-# 🌤️ Previsão do Tempo 
+# Previsão do Tempo 🌤️
 
 Este projeto é um **site de previsão do tempo**, onde o usuário pode digitar o nome de uma cidade e obter informações sobre o clima atual, como temperatura, umidade e condições meteorológicas. A aplicação utiliza a **API de previsão do tempo** para buscar dados em tempo real.
 
 ## 🚀 Tecnologias Usadas
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **JavaScript**
 - **API de Previsão do Tempo:** OpenWeatherMap
 
