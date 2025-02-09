@@ -27,6 +27,9 @@ O objetivo deste projeto foi criar uma aplicação simples e funcional para:
 - **Exibe dados do clima**: Temperatura, umidade, e uma descrição do clima (ex: ensolarado, chuvoso, nublado).
 - **Design responsivo**: A interface se adapta a diferentes tamanhos de tela (desktop e mobile).
 
+## 📜 Licença
+
+Este projeto está licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
 
 ## 🎥 Créditos
 
